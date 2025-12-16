@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+Outputs_Pro/
+Templates/
+*.wav
+*.mp3
+.DS_Store
