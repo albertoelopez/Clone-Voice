@@ -7,12 +7,17 @@
 # Pinned to specific versions for model stability.
 # The full URL ensures the correct CUDA version is downloaded.
 --extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.7.0+cu121
-torchaudio==2.7.0+cu121
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
 transformers==4.46.3
 diffusers==0.29.0
 resemble-perth==1.0.1
 openai-whisper
+librosa
+einops
+s3tokenizer
+omegaconf
+conformer
 
 # --- GUI Libraries ---
 customtkinter==5.2.2
